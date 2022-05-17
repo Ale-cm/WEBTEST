@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "wdio": "wdio run test/wdio.conf.ts"
+        "clean": "rimraf .tsbuild && rimraf allure-results && rimraf junit-results",
+        "wdio": "npm run clean && wdio run test/wdio.conf.ts"
     },
     "repository": {
         "type": "git",
