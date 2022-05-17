@@ -1,0 +1,10 @@
+paso 1 iniciamos repo local github " git init "
+
+paso 2 iniciamos setup npm " npm init " 
+
+paso 3 inciamos setup webdriver io.  " npm init wdio " 
+
+paso 4 corremos los test de prueba "npm run wdio " 
+
+
+"
